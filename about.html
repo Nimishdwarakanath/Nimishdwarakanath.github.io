@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Nimish Dwarakanath</title>
+    <style>
+        /* Reset and base styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fff;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Navigation styles */
+        nav {
+            margin-bottom: 40px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 20px;
+        }
+
+        nav a {
+            color: #0066cc;
+            text-decoration: none;
+            margin-right: 15px;
+            font-size: 14px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Social icons container */
+        .social-icons {
+            float: right;
+        }
+
+        .social-icons a {
+            margin-left: 10px;
+            color: #666;
+            text-decoration: none;
+        }
+
+        .social-icons a:hover {
+            color: #0066cc;
+        }
+
+        /* Main heading */
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            font-weight: normal;
+        }
+
+        /* Section headings */
+        h2 {
+            font-size: 18px;
+            margin: 30px 0 15px 0;
+            font-weight: normal;
+        }
+
+        h3 {
+            font-size: 16px;
+            margin: 20px 0 10px 0;
+            font-weight: normal;
+        }
+
+        /* Links */
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Content sections */
+        .content-section {
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .content-section:last-child {
+            border-bottom: none;
+        }
+
+        .content-section p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        /* Lists */
+        ul {
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        /* Experience/Education entries */
+        .entry {
+            margin-bottom: 25px;
+        }
+
+        .entry-header {
+            margin-bottom: 8px;
+        }
+
+        .entry-title {
+            font-weight: normal;
+            color: #333;
+        }
+
+        .entry-company {
+            color: #666;
+            font-style: italic;
+        }
+
+        .entry-date {
+            color: #666;
+            font-size: 14px;
+        }
+
+        .entry-description {
+            margin-top: 8px;
+        }
+
+        /* Skills section */
+        .skills-section {
+            margin-bottom: 30px;
+        }
+
+        .skill-category {
+            margin-bottom: 8px;
+        }
+
+        .skill-category strong {
+            font-weight: normal;
+            color: #333;
+        }
+
+        /* Responsive design */
+        @media (max-width: 600px) {
+            body {
+                padding: 15px;
+            }
+            
+            .social-icons {
+                float: none;
+                margin-top: 10px;
+            }
+            
+            nav {
+                text-align: left;
+            }
+        }
+
+        /* Clear floats */
+        .clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Profile photo styles */
+        .profile-photo {
+            width: 150px;
+            height: auto;
+            border-radius: 4px;
+            margin: 20px 0;
+            display: block;
+        }
+
+        @media (max-width: 600px) {
+            .profile-photo {
+                width: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="clearfix">
+        <a href="index.html">[home]</a>
+        <a href="#blog">[blog]</a>
+        <a href="#work">[work]</a>
+        <a href="about.html">[about]</a>
+        
+        <div class="social-icons">
+            <a href="#">📧</a>
+            <a href="#">🐦</a>
+            <a href="#">💼</a>
+            <a href="#">📝</a>
+        </div>
+    </nav>
+
+    <main>
+        <h1>about me</h1>
+        
+        <img src="artefacts/nimish_spiti.jpeg" alt="Nimish Dwarakanath" class="profile-photo">
+        
+        <div class="content-section">
+            <p>hey there, </p>
+            <p>I'm Nimish (/nɪmɪʃ/), a data scientist and a machine learning engineer obsessed with pushing the frontiers of what can be achieved with data.</p>
+            <p>My journey in technology has been driven by curiosity and a desire to push the boundaries of what's possible with machine learning and artificial intelligence. I specialize in developing production-ready ML models, MLOps infrastructure, and scalable systems that bridge the gap between research and practical applications.</p>
+    
+            <p>When I'm not coding, you'll find me exploring new technologies, contributing to open source projects, or diving deep into the latest research papers in AI/ML.</p>
+        </div>
+
+        <h2>professional experience</h2>
+        <div class="content-section">
+            <div class="entry">
+                <div class="entry-header">
+                    <div class="entry-title">Machine Learning Engineer 2</div>
+                    <div class="entry-company">Glance, Bengaluru</div>
+                    <div class="entry-date">September 2024 - Present</div>
+                </div>
+                <div class="entry-description">
+                    <p>Description of your role, key achievements, technologies used, and impact on the organization. Include specific metrics and results where possible.</p>
+                </div>
+            </div>
+
+            <div class="entry">
+                <div class="entry-header">
+                    <div class="entry-title">Associate Data Scientist</div>
+                    <div class="entry-company">IHX, Bengaluru</div>
+                    <div class="entry-date">August 2023 - September 2024</div>
+                </div>
+                <div class="entry-description">
+                    <p>Description of previous role and accomplishments.</p>
+                </div>
+            </div>
+        </div>
+
+        <h2>education</h2>
+        <div class="content-section">
+            <div class="entry">
+                <div class="entry-header">
+                    <div class="entry-title">Ph.D. in Materials Simulations</div>
+                    <div class="entry-company">JNCASR, Bengaluru</div>
+                    <div class="entry-date">2022</div>
+                </div>
+            </div>
+
+            <div class="entry">
+                <div class="entry-header">
+                    <div class="entry-title">Master's in Physics</div>
+                    <div class="entry-company">IIT Kanpur</div>
+                    <div class="entry-date">2015</div>
+                </div>
+            </div>
+        </div>
+
+        <h2>technical skills</h2>
+        <div class="content-section">
+            <div class="skills-section">
+                <div class="skill-category">
+                    <strong>Programming Languages:</strong> Python, JavaScript, TypeScript, Go, Rust, C++, CUDA
+                </div>
+                <div class="skill-category">
+                    <strong>Machine Learning:</strong> PyTorch, TensorFlow, Scikit-learn, Hugging Face Transformers, NLTK, SpaCy
+                </div>
+                <div class="skill-category">
+                    <strong>Data Science:</strong> Pandas, NumPy, Jupyter, Matplotlib, Seaborn, SQL
+                </div>
+                <div class="skill-category">
+                    <strong>MLOps & DevOps:</strong> Docker, Kubernetes, MLflow, Weights & Biases, DVC, Apache Airflow
+                </div>
+                <div class="skill-category">
+                    <strong>Web Development:</strong> FastAPI, Flask, React, Node.js, HTML/CSS
+                </div>
+                <div class="skill-category">
+                    <strong>Cloud & Infrastructure:</strong> AWS, GCP, Azure, Terraform, CI/CD, Git, Linux
+                </div>
+            </div>
+        </div>
+
+        <h2>key projects & contributions</h2>
+        <div class="content-section">
+            <div class="entry">
+                <div class="entry-header">
+                    <div class="entry-title">Open Source Contributions</div>
+                </div>
+                <div class="entry-description">
+                    <p>20+ contributions to high-performance ML libraries and frameworks, focusing on optimization and new feature development.</p>
+                </div>
+            </div>
+
+            <div class="entry">
+                <div class="entry-header">
+                    <div class="entry-title">Production ML Systems</div>
+                </div>
+                <div class="entry-description">
+                    <p>Designed and deployed large-scale machine learning systems serving millions of requests, with focus on latency optimization and model performance.</p>
+                </div>
+            </div>
+
+            <div class="entry">
+                <div class="entry-header">
+                    <div class="entry-title">Research & Development</div>
+                </div>
+                <div class="entry-description">
+                    <p>Led research initiatives in deep learning and LLMs, resulting in improved model architectures and training methodologies.</p>
+                </div>
+            </div>
+        </div>
+
+        <h2>interests & philosophy</h2>
+        <div class="content-section">
+            <p>I believe in the power of technology to solve complex problems and improve lives. My approach combines rigorous technical skills with creative problem-solving, always keeping the end user in mind.</p>
+            
+            <p>I'm particularly interested in the intersection of AI ethics, model interpretability, and practical deployment challenges. I enjoy mentoring others and sharing knowledge through technical writing and speaking.</p>
+            
+            <p>Outside of technology, I'm passionate about [your hobbies/interests], which often provide fresh perspectives that I bring back to my technical work.</p>
+        </div>
+
+        <h2>let's connect</h2>
+        <div class="content-section">
+            <p>I'm always interested in discussing new opportunities, collaborating on interesting projects, or simply chatting about the latest developments in ML and AI.</p>
+            
+            <p>Feel free to reach out via <a href="#">email</a>, connect with me on <a href="#">LinkedIn</a>, or follow my thoughts on <a href="#">Twitter</a>. You can also check out my work on <a href="#">GitHub</a> or read my <a href="#blog">blog</a> for more insights into my thinking and projects.</p>
+            
+            <p>Download my full <a href="#">resume/CV</a> for more detailed information about my background and experience.</p>
+        </div>
+    </main>
+</body>
+</html>
