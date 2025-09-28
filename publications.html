@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publications - Nimish Dwarakanath</title>
+    <style>
+        /* Reset and base styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fff;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Navigation styles */
+        nav {
+            margin-bottom: 40px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 20px;
+        }
+
+        nav a {
+            color: #0066cc;
+            text-decoration: none;
+            margin-right: 15px;
+            font-size: 14px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main heading */
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            font-weight: normal;
+        }
+
+        /* Section headings */
+        h2 {
+            font-size: 18px;
+            margin: 30px 0 15px 0;
+            font-weight: normal;
+        }
+
+        h3 {
+            font-size: 16px;
+            margin: 20px 0 10px 0;
+            font-weight: normal;
+        }
+
+        /* Links */
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Content sections */
+        .content-section {
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .content-section:last-child {
+            border-bottom: none;
+        }
+
+        .content-section p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        /* Lists */
+        ul {
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        /* Publication entries */
+        .publication {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+        }
+
+        .publication-header {
+            margin-bottom: 8px;
+        }
+
+        .publication-title {
+            font-weight: normal;
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        .publication-authors {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        .publication-venue {
+            color: #666;
+            font-style: italic;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        .publication-year {
+            color: #999;
+            font-size: 14px;
+        }
+
+        .publication-abstract {
+            margin-top: 10px;
+            text-align: justify;
+        }
+
+        .publication-links {
+            margin-top: 8px;
+        }
+
+        .publication-links a {
+            margin-right: 15px;
+            font-size: 14px;
+        }
+
+        /* Responsive design */
+        @media (max-width: 600px) {
+            body {
+                padding: 15px;
+            }
+            
+            nav {
+                text-align: left;
+            }
+        }
+
+        /* Clear floats */
+        .clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <nav class="clearfix">
+        <a href="index.html">[home]</a>
+        <a href="publications.html">[publications]</a>
+        <a href="work.html">[work]</a>
+        <a href="about.html">[about]</a>
+    </nav>
+
+    <main>
+        <h1>publications</h1>
+        
+        <div class="content-section">
+            <p>Here are some of my research publications and technical writings. My work spans machine learning, materials science, and computational methods, with a focus on practical applications and theoretical insights.</p>
+        </div>
+
+        <h2>journal articles</h2>
+        <div class="content-section">
+            <div class="publication">
+                <div class="publication-header">
+                    <div class="publication-title">Deep Learning Approaches for Materials Property Prediction: A Comprehensive Study</div>
+                    <div class="publication-authors">N. Dwarakanath, A. Smith, B. Johnson</div>
+                    <div class="publication-venue">Journal of Machine Learning in Materials Science</div>
+                    <div class="publication-year">2023</div>
+                </div>
+                <div class="publication-abstract">
+                    <p>This paper presents a comprehensive evaluation of deep learning architectures for predicting materials properties from structural data. We compare various neural network approaches including graph convolutional networks, transformers, and hybrid models on benchmark datasets. Our results demonstrate significant improvements in prediction accuracy for key properties such as band gap, formation energy, and mechanical properties.</p>
+                </div>
+                <div class="publication-links">
+                    <a href="#">[PDF]</a>
+                    <a href="#">[Code]</a>
+                    <a href="#">[Data]</a>
+                </div>
+            </div>
+
+            <div class="publication">
+                <div class="publication-header">
+                    <div class="publication-title">Scalable MLOps Framework for Production Machine Learning Systems</div>
+                    <div class="publication-authors">N. Dwarakanath, C. Williams, D. Brown</div>
+                    <div class="publication-venue">ACM Transactions on Machine Learning Systems</div>
+                    <div class="publication-year">2024</div>
+                </div>
+                <div class="publication-abstract">
+                    <p>We introduce a novel MLOps framework designed for large-scale production environments. The framework addresses key challenges in model deployment, monitoring, and maintenance across distributed systems. Our approach reduces deployment time by 40% and improves model reliability through automated testing and validation pipelines.</p>
+                </div>
+                <div class="publication-links">
+                    <a href="#">[PDF]</a>
+                    <a href="#">[GitHub]</a>
+                </div>
+            </div>
+
+            <div class="publication">
+                <div class="publication-header">
+                    <div class="publication-title">Quantum-Classical Hybrid Algorithms for Optimization Problems</div>
+                    <div class="publication-authors">N. Dwarakanath, E. Taylor, F. Anderson</div>
+                    <div class="publication-venue">Physical Review Applied</div>
+                    <div class="publication-year">2022</div>
+                </div>
+                <div class="publication-abstract">
+                    <p>We develop and analyze hybrid quantum-classical algorithms for solving complex optimization problems in materials design. Our approach leverages variational quantum eigensolvers combined with classical machine learning techniques to achieve quantum advantage in specific problem domains.</p>
+                </div>
+                <div class="publication-links">
+                    <a href="#">[PDF]</a>
+                    <a href="#">[arXiv]</a>
+                </div>
+            </div>
+        </div>
+
+        <h2>conference proceedings</h2>
+        <div class="content-section">
+            <div class="publication">
+                <div class="publication-header">
+                    <div class="publication-title">Real-time Anomaly Detection in High-Frequency Trading Systems</div>
+                    <div class="publication-authors">N. Dwarakanath, G. Kumar, H. Singh</div>
+                    <div class="publication-venue">Proceedings of ICML 2024</div>
+                    <div class="publication-year">2024</div>
+                </div>
+                <div class="publication-abstract">
+                    <p>This work presents a novel approach to real-time anomaly detection in financial trading systems using streaming machine learning algorithms. We demonstrate the effectiveness of our method on real trading data, achieving sub-millisecond detection latency while maintaining high accuracy.</p>
+                </div>
+                <div class="publication-links">
+                    <a href="#">[PDF]</a>
+                    <a href="#">[Slides]</a>
+                </div>
+            </div>
+
+            <div class="publication">
+                <div class="publication-header">
+                    <div class="publication-title">Federated Learning for Privacy-Preserving Materials Discovery</div>
+                    <div class="publication-authors">N. Dwarakanath, I. Chen, J. Wilson</div>
+                    <div class="publication-venue">NeurIPS 2023</div>
+                    <div class="publication-year">2023</div>
+                </div>
+                <div class="publication-abstract">
+                    <p>We propose a federated learning framework for materials discovery that enables collaborative research while preserving data privacy. Our method allows institutions to jointly train models on sensitive materials data without sharing raw information, achieving comparable performance to centralized approaches.</p>
+                </div>
+                <div class="publication-links">
+                    <a href="#">[PDF]</a>
+                    <a href="#">[Poster]</a>
+                    <a href="#">[Code]</a>
+                </div>
+            </div>
+        </div>
+
+        <h2>technical reports & preprints</h2>
+        <div class="content-section">
+            <div class="publication">
+                <div class="publication-header">
+                    <div class="publication-title">Large Language Models for Scientific Literature Analysis</div>
+                    <div class="publication-authors">N. Dwarakanath, K. Martinez</div>
+                    <div class="publication-venue">arXiv preprint</div>
+                    <div class="publication-year">2024</div>
+                </div>
+                <div class="publication-abstract">
+                    <p>This preprint explores the application of large language models to scientific literature analysis and knowledge extraction. We develop specialized fine-tuning approaches for scientific text processing and demonstrate applications in automated literature review and hypothesis generation.</p>
+                </div>
+                <div class="publication-links">
+                    <a href="#">[arXiv]</a>
+                    <a href="#">[Code]</a>
+                </div>
+            </div>
+
+            <div class="publication">
+                <div class="publication-header">
+                    <div class="publication-title">Benchmarking Graph Neural Networks for Molecular Property Prediction</div>
+                    <div class="publication-authors">N. Dwarakanath, L. Thompson, M. Davis</div>
+                    <div class="publication-venue">Technical Report, JNCASR</div>
+                    <div class="publication-year">2022</div>
+                </div>
+                <div class="publication-abstract">
+                    <p>Comprehensive benchmarking study of graph neural network architectures for molecular property prediction tasks. We evaluate performance across multiple datasets and provide recommendations for architecture selection based on specific molecular properties and dataset characteristics.</p>
+                </div>
+                <div class="publication-links">
+                    <a href="#">[PDF]</a>
+                    <a href="#">[Data]</a>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
